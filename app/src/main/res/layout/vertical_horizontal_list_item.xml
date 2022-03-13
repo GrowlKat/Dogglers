@@ -57,9 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="32dp"
             android:text="Tseitel"
-            android:layout_marginTop="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginBottom="16dp"
+            android:layout_margin="8dp"
             android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
             app:layout_constraintTop_toBottomOf="@+id/dogImage"
             app:layout_constraintStart_toStartOf="parent"/>
@@ -69,15 +67,13 @@
             android:layout_width="wrap_content"
             android:layout_height="32dp"
             android:text="@string/dog_age"
-            android:layout_marginTop="8dp"
-            android:layout_marginStart="8dp"
-            android:layout_marginBottom="16dp"
+            android:layout_margin="8dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             app:layout_constraintTop_toBottomOf="@+id/dogName"
             app:layout_constraintStart_toStartOf="parent"/>
 
         <TextView
-            android:id="@+id/dogHobbie"
+            android:id="@+id/dogHobbies"
             android:layout_width="wrap_content"
             android:layout_height="32dp"
             android:text="@string/dog_hobbies"
